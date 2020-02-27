@@ -10,8 +10,8 @@ Atalante (ATL)
 Maria S Merian (MSM)
 
 The naming convention for the NetCDF files is of the form:
-'{platform_abbreviation}_SoundingAscentProfile_*_{YYYYMMDD}_*.nc' 
-'{platform_abbreviation}_SoundingDescentProfile_*_{YYYYMMDD}_*.nc'
+{platform_abbreviation}\_SoundingAscentProfile\_\*\_{YYYYMMDD}\_\*.nc' 
+{platform_abbreviation}\_SoundingDescentProfile\_\*\_{YYYYMMDD}\_\*.nc'
 
 The file utils.py is a module that contains functions to calculate 
 various atmospheric properties based on the provided radiosonde data.
