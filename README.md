@@ -29,5 +29,10 @@ soundings_one_platform_stats.ipynb:
   for each sounding. 
 * Plot a set of vertical profiles for all the soundings of the 
   most prominent atmospheric quantities.
+  
+soundings_compare_platforms.ipynb:
+-----------------------------------
+* For a given day and time period, plot a map with the positions of each platform and the trajectories of the soundings.
+* Plot vertical profiles of different quantities for all platforms.
 
 
