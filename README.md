@@ -1,4 +1,4 @@
-This is a python module for calculating various statistics over 
+This is a python module for calculating various statistics from 
 the radiosondes launched during EUREC4A. The soundings of the 
 following platforms can be handled as long as the data is provided
 in NetCDF files: 
@@ -10,12 +10,12 @@ Atalante (ATL)
 Maria S Merian (MSM)
 
 The naming convention for the NetCDF files is of the form:
-{platform_abbreviation}_SoundingAscentProfile_*_{YYYYMMDD}_*.nc 
-{platform_abbreviation}_SoundingDescentProfile_*_{YYYYMMDD}_*.nc
+'{platform_abbreviation}_SoundingAscentProfile_*_{YYYYMMDD}_*.nc' 
+'{platform_abbreviation}_SoundingDescentProfile_*_{YYYYMMDD}_*.nc'
 
 The file utils.py is a module that contains functions to calculate 
 various atmospheric properties based on the provided radiosonde data.
-This module is used in the 3 provided jupyter notebooks to calculate
+This module is used in the 3 provided jupyter notebooks to plot and to calculate
 different kinds of statistics of radiosonde data, which shall here 
 be briefly described:
 
@@ -35,4 +35,7 @@ soundings_compare_platforms.ipynb:
 * For a given day and time period, plot a map with the positions of each platform and the trajectories of the soundings.
 * Plot vertical profiles of different quantities for all platforms.
 
-
+soundings_temporal_evolution.ipynb:
+-----------------------------------
+* For a given platform and time period plot the temporal evolution of different quantities (relative humidity, wind speed, ...)  with height.
+ 
