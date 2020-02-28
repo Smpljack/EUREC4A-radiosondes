@@ -14,8 +14,10 @@ The naming convention for the NetCDF files is of the form:
 {platform_abbreviation}\_SoundingDescentProfile\_\*\_{YYYYMMDD}\_\*.nc'
 
 The module makes use of a python toolbox for atmospheric research 
-called typhon, which is openly available under: \n
-https://github.com/atmtools/typhon \n
+called typhon, which is openly available under: 
+
+https://github.com/atmtools/typhon
+
 The file utils.py is a module that contains functions to calculate 
 various atmospheric properties based on the provided radiosonde data.
 This module is used in the 3 provided jupyter notebooks to plot and to calculate
